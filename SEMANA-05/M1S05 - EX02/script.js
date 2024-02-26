@@ -5,6 +5,15 @@
 //criando array de frutas
 let frutas =["Cupuaçu", "Bacuri", "Açaí"];
 
+
+//adicionando fruta no array
+frutas.push('Pitaya');
+
+//removendo a primeira fruta do array
+frutas.shift();
+
 //imprimindo segunda fruta do array
 console.log(frutas[1]);
 
+//imprimindo array atualizado
+console.log(frutas);
