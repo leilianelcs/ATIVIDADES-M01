@@ -4,7 +4,7 @@ const { password } = require("../../config/database.config");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Alunos', {
+    await queryInterface.createTable('alunos', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -37,6 +37,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Alunos');
+    await queryInterface.dropTable('alunos');
   }
 };
