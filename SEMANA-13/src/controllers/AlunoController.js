@@ -2,11 +2,7 @@ const Aluno = require("../models/Aluno")
 
 class AlunoController {
     
-    // construtor
-    // propriedades
-    // métodos 
-
-  async listar(req,res){
+   async listar(req,res){
     const alunos = await Aluno.findAll()
     res.json(alunos)
   }

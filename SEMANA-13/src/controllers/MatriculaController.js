@@ -30,4 +30,4 @@ class MatriculaController {
 
 }
 
-module.exports = new MatriculaController() 
+module.exports = new MatriculaController(); 
