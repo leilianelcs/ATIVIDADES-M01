@@ -1,4 +1,4 @@
-# Semana 10 - Introdução ao Sequelize
+# Módulo 01 - FloripaMaisTec
 
 ## Rodar o repositório:
 
